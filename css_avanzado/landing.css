@@ -44,3 +44,27 @@ body{
     0%{left: -1000px}
     100%{ left: 0}
 }
+
+.btn{
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border: #ffffff 1px solid;
+    margin-top: 40px;
+    opacity: 0;
+    animation-name: btn;
+    animation-duration: 3s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+
+    transition-property: transform;
+    transition-duration: 1s;
+}
+.btn:hover{
+    transform: rotateY(180deg);
+}
+@keyframes btn{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
