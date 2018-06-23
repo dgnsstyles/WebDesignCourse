@@ -5,7 +5,7 @@
   Arrays
   Objetos */
 
-  var number1 = '35';
+  // var number1 = '35';
   /* var number2 = '75'; */
   /* alert('mi numero favorito es '+number1); */
   // las únicas elementos que deben estar en una variable son//
@@ -32,7 +32,64 @@
     console.log(i);
     i++;
  } */
- 
 
+ /* var Numeros2 = [65, 33, 68]
+
+ Numeros2.forEach(function(number){
+     console.log(number)
+
+ })
+  */
+ // Condicionales
+ /* if(1 == 1){
+     console.log('Esto es Cierto recorcholis batman');
+ } else{
+     console.log('esto es Falso Falso ');
+ } */
+    // switch
+/* var fruta = 'Uva';
+ switch(fruta){
+     case 'platano':
+     alert('esto es un platano');
+     break;
+     case 'manzana':
+     alert('esto es una manzana');
+     break;
+     case 'frutilla':
+     alert('esto es una frutilla');
+     break;
+     default: 
+     alert('me encantan todas las frutas');
+     break;
+ } */
+
+ // Objetos Literales
+
+ /* var Person = {
+     'PrimerNombre': 'David',
+     'SegundoNombre': 'Goren',
+     'Edad': 38,
+     'niños':['Salomon', 'Johnathan'],
+     'direccion': {
+         'calle': 'Alonso de Ercilla',
+         'numero': '1627-b',
+         'departamento': '21'
+     },
+      nombreCompleto: function(){
+          return this.PrimerNombre +''+this.SegundoNombre;
+      }
+    
+     }
+ console.log(Person.nombreCompleto); */
+
+ // Objeto Constructor
+/* var manzana = new Object();
+manzana.color = 'rojo';
+manzana.forma = 'redonda';
+
+manzana.describela = function(){
+    return 'Esta es una Manzana color' +this.color+' y tiene la forma' +this.forma;
+}
+console.log(manzana.describela); */
 
  
