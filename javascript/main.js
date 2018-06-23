@@ -92,4 +92,12 @@ manzana.describela = function(){
 }
 console.log(manzana.describela); */
 
+/* function doClick(){
+    alert('me presionaste');
+} */
+
+function changeText(){
+    var heading = document.getElementById('heading');
+    heading.innerHTML = 'Tu me presionaste';
+}
  
