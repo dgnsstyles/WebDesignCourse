@@ -7,17 +7,41 @@
     <title>Aprendiendo Javascript</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body id="body">
     <div class="header">
         <h1 id="heading">Aprendiendo Javascript</h1>
         <p>Con David Goren</p>
     </div>
     <div class="container">
         <!-- <button onclick="doClick()">Presiona</button> -->
-        <!-- <button onclick="this.innerHTML = 'Tu Presionaste'">Presiona</button> -->
-        <button onclick="changeText()">Presioname</button><br>
+<!--          <button onclick="this.innerHTML = 'Tu Presionaste'">Presiona</button>
+ -->        <!-- <button onclick="changeText()">Presioname</button><br> -->
+            <div> 
+                <div>
+            <h2>rellena esta forma</h2>
+            <label> Primer Nombre</label>
+            <input type="text" name="PrimerNombre" id="PrimerNombre">
+        </div>
+        <br />
+        <div>
+            <label for="">Apellido</label>
+        <input type="text" name="Apellido" id="Apellido">
+        </div>
+        <label>Background</label>
+        <select name="Background" id="background" onchange="changeBackground(this)">
+            <option value="rojo">Rojo</option>
+            <option value="azul">Azul</option>
+            <option value="verde">Verde</option>
 
-        <h2>rellena esta forma</h2>
+        </select>
+            <input type="submit" value="Submit">
+    </div>
+        
+        
+
+
+        
+
 
     </div>
     <script src="main.js"></script>

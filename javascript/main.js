@@ -13,17 +13,21 @@
   // deben empezar con una letra
   // estos son CaseSensitive lo que significa que si leen minúsculas y mayusculas
 
-  // hay 
-
+  /* var numero1 = 42;
+  var numero2 = 38;
+  console.log('mi numero favorito es '+numero1 + numero2); */
   // Arrays
  // estos estan hechos para guardar grupos de valores
 
- /* var Colores = ['Azul', 'Rojo', 'Verde']; */
- /* var Colores = new Array('Rojo', 'Azul', 'Verde');
- Colores.push('Violeta'); */
+  //var Colores = ['Azul', 'Rojo', 'Verde'];
+ /*  var Colores = new Array('Rojo', 'Azul', 'Verde'); */
+       
   /* var Numeros = [3, 56, 77, 35]; */
  /* alert(Numeros[0] + Numeros[3]);  */
-
+  /* for( var w = 0; w <= 20; w++){
+      console.log(w);
+  }
+  var w= 0;  */
  /* for(var i = 0; i <= 20; i++){
      console.log(i);
  }  */
@@ -47,7 +51,7 @@
      console.log('esto es Falso Falso ');
  } */
     // switch
-/* var fruta = 'Uva';
+ /*var fruta = 'manzana';
  switch(fruta){
      case 'platano':
      alert('esto es un platano');
@@ -94,10 +98,15 @@ console.log(manzana.describela); */
 
 /* function doClick(){
     alert('me presionaste');
-} */
-
+}  */
+/* 
 function changeText(){
     var heading = document.getElementById('heading');
     heading.innerHTML = 'Tu me presionaste';
-}
- 
+} */
+ function changeBackground(x){
+     var body = getElementById('body');
+     body.style.backgroundColor = x.value;
+
+     
+ }

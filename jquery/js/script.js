@@ -1,5 +1,4 @@
-
-    $('#sortable').sortable({ connectWith: "#sortableToo", placeholder: "placeholderBox" });
+$('#sortable').sortable({ connectWith: "#sortableToo", placeholder: "placeholderBox" });
     $('#sortableToo').sortable({ connectWith: "#sortable", placeholder: "placeholderBox" });
     //Funcion Datepicker
     $('.date').datepicker({
@@ -35,3 +34,4 @@
         });
     })
 
+    
