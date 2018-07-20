@@ -22,8 +22,7 @@ p {
     background: #333;
     display: inline-block;
     color: #fff;
-    text-decoration: none;
-    padding: 1em 2em;
+    text-decoration: none; 
     border: 1px solid #666;
     margin: .5em 0;
 }
