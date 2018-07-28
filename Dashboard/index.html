@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Admin</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-xl navbar-dark">
+          <div class="container">
+          <a class="navbar-brand" href="#">Admin</a>
+          <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+              aria-expanded="false" aria-label="Toggle navigation"></button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#">Admin Panel<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Post</a>
+                  </li>
+                  <li class="nav-item">
+                        <a class="nav-link" href="#">Pages</a>
+                  </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#">Users</a>
+                    </li>
+              </ul>
+              <ul class="navbar-nav ml-auto">
+                  <li class="navbar-item">
+                      <a href="" class="nav-link">Bienvenido David</a>
+                   </li>
+                   <li class="navbar-item">
+                        <a href="" class="nav-link">Hello</a>
+                     </li>
+                     <li class="navbar-item">
+                            <a href="" class="nav-link">Hello</a>
+                     </li>
+              </ul>
+              
+          </div>
+        </div>
+      </nav>
+
+      <header id="header">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-10">
+                      <h1><span><i class="fas fa-cog"></i></span>  Dashboard  <small>Maneja tu sitio</small></h1> 
+                  </div>
+                  <div class="col-md-2">
+                        <div class="dropdown">
+                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                 Crear Contenido
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item" href="#">Agregar Post</a>
+                                  <a class="dropdown-item" href="#">Agregar Pagina</a>
+                                  <a class="dropdown-item" href="#">Agregar Comentario</a>
+                                </div>
+                              </div>
+                  </div>
+                  
+              </div>
+          </div>
+      </header>
+      <!--breadcrumb-->
+      <section id="breadcrumb">
+          <div class="container">
+              <ol class="breadcrumb">
+                 <li class="active">Dashboard</li> 
+              </ol>
+          </div>
+      </section>
+
+      <!--Main Section-->
+      <section id="main">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-3">
+                      <div class="list-group">
+                          <a href="#" class="list-group-item list-group-item-action active main-color-bg">
+                              <span><i class="fas fa-cog"></i></span> Dashboard</a>
+                              <a href="#" class="list-group-item list-group-item-action">
+                                    <span><i class="fas fa-file"></i></span> Pages <span class="badge badge-secondary badge-pill text-right">22</span></a>
+
+                          <a href="#" class="list-group-item list-group-item-action">
+                                <span><i class="fas fa-pen"></i></span> Post <span class="badge badge-secondary badge-pill text-right">12</span></a>
+                          <a href="#" class="list-group-item list-group-item-action">
+                                <span><i class="fas fa-user"></i></span> Usuarios <span class="badge badge-secondary badge-pill text-right">2</span></a>
+                      </div>
+                      <div class="card card-block bg-faded pt-2">
+                            <h5>Espacio Usado</h5>
+                            <div class="progress" style="height: 30px">
+                                    <div class="progress-bar bg-dark" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="200">100%</div>
+                            </div>
+                            <h5>Espacio Usado</h5>
+                            <div class="progress" style="height: 30px">
+                                    <div class="progress-bar bg-dark" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                            </div>
+                       </div>
+                  </div>
+                  
+                  <div class="col-md-9">
+                        <div class="card">
+                                <div class="card-header main-color-bg">
+                                  Featured
+                                </div>
+                                <div class="row card-deck mt-2 p-4">
+                                    <div class="col-md-4">
+                                        <div class="card-body cards-bg">
+                                                <h4 class="card-title text-center"> <span><i class="fas fa-file"></i></span>  Primary card title</h4>
+                                                <p class="card-text">Some quick example text to build</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                            <div class="card-body cards-bg">
+                                                    <h5 class="card-title">Primary card title</h5>
+                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                  </div>
+                                    </div>
+                                    <div class="col-md-4 ">
+                                            <div class="card-body cards-bg">
+                                                    <h5 class="card-title">Primary card title</h5>
+                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            </div>
+                                    </div>
+                                  
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 mt-2">
+                                    <div class="card-header main-color-bg">
+                                        hello
+                                    </div>
+                                    <div class="card-body">
+                                        <table class="table">
+                                            <thead class="thead-light">
+                                              <tr>
+                                                <th scope="col">#</th>
+                                                <th scope="col">First</th>
+                                                <th scope="col">Last</th>
+                                                <th scope="col">Handle</th>
+                                              </tr>
+                                            </thead>
+                                            <tbody>
+                                              <tr>
+                                                <th scope="row">1</th>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">2</th>
+                                                <td>Jacob</td>
+                                                <td>Thornton</td>
+                                                <td>@fat</td>
+                                              </tr>
+                                              <tr>
+                                                <th scope="row">3</th>
+                                                <td>Larry</td>
+                                                <td>the Bird</td>
+                                                <td>@twitter</td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                    </div>
+                                </div>
+                            </div>
+                  </div>
+              </div><!--fin de las cards iniciales-->
+
+          </div>
+      </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+  </body>
+</html>
