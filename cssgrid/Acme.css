@@ -124,6 +124,7 @@ p {
     .content-wrap,
     #section-b ul {
       grid-column: 2/4;
+      
     }
     #section-a .content-text {
         columns: 2;
