@@ -47,6 +47,7 @@ input[type="submit"]:hover{
  cursor: pointer;
 }
 
+
 small{
     display: block;
     margin: 10px 0 0 0;
@@ -62,9 +63,11 @@ a:visited{
 nav.Header-nav{
     text-align: right;
     padding-top: 10px;
+    padding-bottom: 30px;
 }
 nav.Header-nav ul li {
     display: inline;
     margin-right: 10px;
+
 }
 
